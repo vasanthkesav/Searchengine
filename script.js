@@ -24,7 +24,7 @@ ZOHO.CREATOR.init()
       const list = document.querySelector(".list");
       let tag = "";
       for (let i = 0; i < all_items.length; i++) {
-        tag += `<a class="item text-dark" target='_blank'>${all_items[i].Name}</a>`;
+        tag += `<a href="www.google.com" class="item text-dark" target='_blank'>${all_items[i].Name}</a>`;
       }
       list.innerHTML = tag;
     }
